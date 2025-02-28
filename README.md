@@ -15,7 +15,7 @@ the course is about the new features in laravel 11 and how to use them
 - [8. Super Simple Memoization](#8-super-simple-memoization)
 - [9. A Minor Tweak to Model Casts](#9-a-minor-tweak-to-model-casts)
 - [10. Per Second Rate Limits](#10-per-second-rate-limits)
-
+- [11. Retrying Asynchronous Requests](#11-retrying-asynchronous-requests)
 
 
 
@@ -63,3 +63,6 @@ the course is about the new features in laravel 11 and how to use them
 ## 10. Per Second Rate Limits
 - rate limiting is now per second instead of per minute.
 
+## 11. Retrying Asynchronous Requests
+- you can use the `retry` method to retry asynchronous requests.
+- Laravel allows us to make concurrent requests to external APIs using the handy Http::pool method. However, you may have noticed that certain options, like retrying failed requests, aren't supported… until now.
