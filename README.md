@@ -13,6 +13,13 @@ the course is about the new features in laravel 11 and how to use them
 - [6. The Dumpable Trait](#6-the-dumpable-trait)
 - [7. Limitless Limits for Eager Loading](#7-limitless-limits-for-eager-loading)
 - [8. Super Simple Memoization](#8-super-simple-memoization)
+- [9. A Minor Tweak to Model Casts](#9-a-minor-tweak-to-model-casts)
+
+
+
+
+
+
 ## 1. Fewer Config Files
 - In Laravel 11, the number of configuration files has been reduced.
 - to add config file you can use `php artisan config:publish` command
@@ -49,3 +56,6 @@ the course is about the new features in laravel 11 and how to use them
 
 ## 8. Super Simple Memoization
 - we can memoize any value with a single, simple function called `once`.
+
+## 9. A Minor Tweak to Model Casts
+- All Laravel developers are familiar with the `$casts` property. but the new default is a `casts` method instead. 
