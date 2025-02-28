@@ -11,7 +11,7 @@ the course is about the new features in laravel 11 and how to use them
 - [5. SQLite Out of the Box](#5-sqlite-out-of-the-box)
 2- Changes For All Projects
 - [6. The Dumpable Trait](#6-the-dumpable-trait)
-
+- [7. Limitless Limits for Eager Loading](#7-limitless-limits-for-eager-loading)
 
 ## 1. Fewer Config Files
 - In Laravel 11, the number of configuration files has been reduced.
@@ -43,3 +43,7 @@ the course is about the new features in laravel 11 and how to use them
 - `dump()` to dump the object.
 - `dd()` to dump and die.
 - you can use the `Dumpable` trait to add the `dump()` and `dd()` methods to your classes. and you can override the `dump()` method to customize the output what you want.
+
+## 7. Limitless Limits for Eager Loading
+- you can use the `limit` method to limit the number of records returned from the database while you make eager loading.
+- 
