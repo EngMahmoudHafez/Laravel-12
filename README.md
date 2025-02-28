@@ -12,7 +12,7 @@ the course is about the new features in laravel 11 and how to use them
 2- Changes For All Projects
 - [6. The Dumpable Trait](#6-the-dumpable-trait)
 - [7. Limitless Limits for Eager Loading](#7-limitless-limits-for-eager-loading)
-
+- [8. Super Simple Memoization](#8-super-simple-memoization)
 ## 1. Fewer Config Files
 - In Laravel 11, the number of configuration files has been reduced.
 - to add config file you can use `php artisan config:publish` command
@@ -46,4 +46,6 @@ the course is about the new features in laravel 11 and how to use them
 
 ## 7. Limitless Limits for Eager Loading
 - you can use the `limit` method to limit the number of records returned from the database while you make eager loading.
-- 
+
+## 8. Super Simple Memoization
+- we can memoize any value with a single, simple function called `once`.
