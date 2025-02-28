@@ -8,11 +8,11 @@ the course is about the new features in laravel 11 and how to use them
 - [2. Missing Middleware](#2-missing-middleware)
 - [3. Streamlined Scheduling](#3-streamlined-scheduling)
 - [4. Installing an API](#4-installing-an-api)
-
+- [5. SQLite Out of the Box](#5-sqlite-out-of-the-box)
 
 
 ## 1. Fewer Config Files
-- In Laravel 12, the number of configuration files has been reduced.
+- In Laravel 11, the number of configuration files has been reduced.
 - to add config file you can use `php artisan config:publish` command
 - the service provider is automatically registered for you if you use the `php artisan make:provider (name)` command.
 - if  you want to register the service provider manually you can use the `bootstrap/providers.php` file.
@@ -32,3 +32,8 @@ the course is about the new features in laravel 11 and how to use them
 - there is now file `routes/api.php` for API routes.
 - to install the API you can use the `php artisan install:api` command.
 - the same for broadcasting, you can use the `php artisan install:broadcasting` command.
+
+## 5. SQLite Out of the Box
+- now SQLite is the default database for new projects.
+- you can change the database in the `.env` file.
+- 
