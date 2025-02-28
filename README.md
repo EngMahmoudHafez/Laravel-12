@@ -29,4 +29,6 @@ the course is about the new features in laravel 11 and how to use them
 - the schedule now wrote in the `routes/console.php` file.
 
 ## 4. Installing an API
-- 
+- there is now file `routes/api.php` for API routes.
+- to install the API you can use the `php artisan install:api` command.
+- the same for broadcasting, you can use the `php artisan install:broadcasting` command.
