@@ -14,7 +14,7 @@ the course is about the new features in laravel 11 and how to use them
 - [7. Limitless Limits for Eager Loading](#7-limitless-limits-for-eager-loading)
 - [8. Super Simple Memoization](#8-super-simple-memoization)
 - [9. A Minor Tweak to Model Casts](#9-a-minor-tweak-to-model-casts)
-
+- [10. Per Second Rate Limits](#10-per-second-rate-limits)
 
 
 
@@ -59,3 +59,7 @@ the course is about the new features in laravel 11 and how to use them
 
 ## 9. A Minor Tweak to Model Casts
 - All Laravel developers are familiar with the `$casts` property. but the new default is a `casts` method instead. 
+
+## 10. Per Second Rate Limits
+- rate limiting is now per second instead of per minute.
+
