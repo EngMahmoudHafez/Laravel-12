@@ -16,3 +16,9 @@ the course is about the new features in laravel 11 and how to use them
 - to add config file you can use `php artisan config:publish` command
 - the service provider is automatically registered for you if you use the `php artisan make:provider (name)` command.
 - if  you want to register the service provider manually you can use the `bootstrap/providers.php` file.
+
+## 2. Missing Middleware 
+- now the middleware live in the framework itself, not in the `app/Http/Middleware` directory.
+- the middleware is now registered in the `bootstrap/app.php` file.
+- if you want to create a new middleware you can use the `php artisan make:middleware (name)` command.
+- to make changes to middleware you can make it in the boot method in the AppServiceProvider class .
