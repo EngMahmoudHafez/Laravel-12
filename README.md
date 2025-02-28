@@ -9,6 +9,8 @@ the course is about the new features in laravel 11 and how to use them
 - [3. Streamlined Scheduling](#3-streamlined-scheduling)
 - [4. Installing an API](#4-installing-an-api)
 - [5. SQLite Out of the Box](#5-sqlite-out-of-the-box)
+2- Changes For All Projects
+- [6. The Dumpable Trait](#6-the-dumpable-trait)
 
 
 ## 1. Fewer Config Files
@@ -36,4 +38,8 @@ the course is about the new features in laravel 11 and how to use them
 ## 5. SQLite Out of the Box
 - now SQLite is the default database for new projects.
 - you can change the database in the `.env` file.
-- 
+
+## 6. The Dumpable Trait
+- `dump()` to dump the object.
+- `dd()` to dump and die.
+- you can use the `Dumpable` trait to add the `dump()` and `dd()` methods to your classes. and you can override the `dump()` method to customize the output what you want.
