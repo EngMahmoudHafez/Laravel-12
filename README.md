@@ -17,7 +17,7 @@ the course is about the new features in laravel 11 and how to use them
 - [10. Per Second Rate Limits](#10-per-second-rate-limits)
 - [11. Retrying Asynchronous Requests](#11-retrying-asynchronous-requests)
 - [12. Encryption Key Rotation](#12-encryption-key-rotation)
-- [13. ]
+- [13. No Need for Flags](#13-no-need-for-flags)
 
 
 
@@ -70,4 +70,7 @@ the course is about the new features in laravel 11 and how to use them
 
 ## 12. Encryption Key Rotation
 - Occasionally rotating your application's encryption key is considered a good security practice, but it terminates user sessions and can even cause exceptions when old data is encountered! Thankfully, Laravel 11 allows us to keep a list of previous keys that it will check against when decrypting.
+
+## 13. No Need for Flags
+- Whilst Laravel has supported both PHPUnit and Pest PHP as testing frameworks for a while now, Pest has always felt a little like a second class citizen. Laravel is now able to determine which test framework you're using, so you never have to remember to use that `--pest` flag.
 
