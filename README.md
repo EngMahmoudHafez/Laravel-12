@@ -18,7 +18,7 @@ the course is about the new features in laravel 11 and how to use them
 - [11. Retrying Asynchronous Requests](#11-retrying-asynchronous-requests)
 - [12. Encryption Key Rotation](#12-encryption-key-rotation)
 - [13. No Need for Flags](#13-no-need-for-flags)
-
+- [14. Simple Tests for Complex Jobs](#14-simple-tests-for-complex-jobs)
 
 
 ## 1. Fewer Config Files
@@ -74,3 +74,5 @@ the course is about the new features in laravel 11 and how to use them
 ## 13. No Need for Flags
 - Whilst Laravel has supported both PHPUnit and Pest PHP as testing frameworks for a while now, Pest has always felt a little like a second class citizen. Laravel is now able to determine which test framework you're using, so you never have to remember to use that `--pest` flag.
 
+## 14. Simple Tests for Complex Jobs
+- Have you ever wanted to test that a job has been marked as deleted, failed or released? Doing so has been a bit of hack in previous Laravel versions. A shiny `withFakeQueueInteractions` method makes that frustration a thing of the past. For our final episode, let's look at an example.
